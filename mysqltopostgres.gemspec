@@ -86,7 +86,7 @@ Gem::Specification.new do |s|
   s.add_dependency('test-unit', ['~> 2.1'])
 
   if RUBY_PLATFORM == 'java'
-    s.add_dependency('activerecord', ['~> 3.2'])
+    s.add_dependency('activerecord', ['~> 4'])
     s.add_dependency('jdbc-postgres', ['~> 9.4'])
     s.add_dependency('activerecord-jdbc-adapter', ['~> 1.2'])
     s.add_dependency('activerecord-jdbcpostgresql-adapter', ['~> 1.2'])
